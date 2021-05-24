@@ -65,14 +65,12 @@ const Menu = styled.div`
     align-items: center;
     flex: 1;
     justify-content: center;
-
     a {
         font-weight: 600;
         text-transform: uppercase;
         padding: 0 10px;
         // flex-wrap: nowrap;
     }
-
     @media (max-width: 768px) {
         display: none;
     }
@@ -81,7 +79,6 @@ const Menu = styled.div`
 const RightMenu = styled.div`
     display: flex;
     align-items: center;
-
     a {
         font-weight: 600;
         text-transform: uppercase;
