@@ -1,5 +1,7 @@
 import React from 'react'
 import Section from './Section'
+import Footer from './Footer'
+
 import styled from 'styled-components';
 
 function Home() {
@@ -53,6 +55,8 @@ function Home() {
                 bgImage="accessories.jpg"
                 leftBtnText="Shop Now"
             />
+            <Footer />
+
         </Container>
     )
 }
